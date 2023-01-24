@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-image: url("images/login.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+        div{
+            border: 8px groove red;
+            width: 400px;
+            height: 500px;
+            line-height: 1.5;
+            border-radius: 25px;
+            margin: 130px;
+            margin-left: 190px;
+        }
+        form{
+            line-height: 2.0;
+            margin-left: 30px;
+        }
+        h2{
+            text-align: center;
+        }
+        .login{
+            width: 300px;
+            height: 30px;
+            background-color: red;
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        input{
+            border-top-style: hidden;
+            border-left-style: hidden;
+            border-right-style: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h2>LOGIN</h2><br><br>
+    <form>
+        &nbsp;&nbsp;&nbsp;<label>Username/Phone No./Email</label><br>
+        &nbsp;&nbsp;&nbsp;<input type="text" name="user" size="40px"><br>
+        &nbsp;&nbsp;&nbsp;<label>Password</label><br>
+        &nbsp;&nbsp;&nbsp;<input type="password" name="password" size="40px"><br>
+        &nbsp;&nbsp;&nbsp;<input type="checkbox">Remember me ?<br><br>
+        &nbsp;&nbsp;&nbsp;<input class="login" type="submit" value="LOGIN"><br>
+        <a href="forgot.html">Fogot password ?</a>
+    </form>
+    </div>
+</body>
+</html>
